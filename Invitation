@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Little One's Double Celebration ✨</title>
+    <!-- Playful Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #fef9f5;
+            color: #6d5a4a;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 15px;
+            line-height: 1.6;
+        }
+        .invitation-card {
+            background-color: #fff;
+            max-width: 550px;
+            margin: 0 auto;
+            padding: 25px 20px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(222, 184, 135, 0.15);
+            border: 2px solid #f8e1d2;
+        }
+        .header-decor {
+            font-family: 'Dancing Script', cursive;
+            color: #e6a780;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .header-img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin: 10px 0 20px;
+            border: 3px solid #f8e1d2;
+        }
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            color: #d98875;
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+        .child-name {
+            font-family: 'Dancing Script', cursive;
+            font-size: 28px;
+            color: #c97b63;
+            margin: 10px 0;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #fef2eb;
+            border-radius: 12px;
+        }
+        .highlight {
+            font-weight: 600;
+            color: #b96b53;
+        }
+        .icon {
+            margin-right: 5px;
+            color: #e6a780;
+        }
+        .clickable-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 8px;
+            background-color: #e6a780;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 8px rgba(230, 167, 128, 0.2);
+        }
+        .clickable-btn:hover {
+            background-color: #d98875;
+            transform: translateY(-2px);
+        }
+        .decor-line {
+            width: 80%;
+            height: 2px;
+            background-color: #f8e1d2;
+            margin: 15px auto;
+        }
+        .footer {
+            font-family: 'Dancing Script', cursive;
+            font-size: 20px;
+            color: #d98875;
+            margin-top: 20px;
+        }
+        .small-note {
+            font-size: 13px;
+            color: #8c7a6b;
+            margin-top: 10px;
+        }
+    </style>
+    <!-- Cute Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="invitation-card">
+        <div class="header-decor">✧･ﾟ: *✧･ﾟ:* Celebrate With Us *:･ﾟ✧*:･ﾟ✧</div>
+        
+        <!-- Replace with your cute image (e.g., child's photo or pastel banner) -->
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=550&q=80" 
+             alt="Little One's Celebration" class="header-img">
+
+        <h1>It's A Double Joy!</h1>
+        <p>We warmly invite you to celebrate</p>
+        <div class="child-name">[KEIXA AZUMI]</div>
+        <p>On their <span class="highlight">Birthday & Christening</span></p>
+
+        <div class="decor-line"></div>
+
+        <!-- Christening Section -->
+        <div class="section">
+            <p><i class="fas fa-church icon"></i> <span class="highlight">CHRISTENING</span></p>
+            <p><i class="fas fa-calendar-alt icon"></i> Date: Sunday, February 01, 2026</p>
+            <p><i class="fas fa-clock icon"></i> Time: 9:30 AM</p>
+            <p><i class="fas fa-map-marker-alt icon"></i> Venue: [St. Nicholas of Tolentine]</p>
+            <a href="https://www.google.com/maps/place/[https://maps.app.goo.gl/jjSsBTdPnCWVy3e1A]" target="_blank" class="clickable-btn">Find On Map</a>
+        </div>
+
+        <!-- Birthday Section -->
+        <div class="section">
+            <p><i class="fas fa-birthday-cake icon"></i> <span class="highlight">BIRTHDAY PARTY</span></p>
+            <p><i class="fas fa-calendar-alt icon"></i> Same Day - 12:30 PM onwards</p>
+            <p><i class="fas fa-map-marker-alt icon"></i> Venue: [PARTY VENUE NAME]</p>
+            <a href="https://www.google.com/maps/place/[PARTY_LOCATION]" target="_blank" class="clickable-btn">Find On Map</a>
+        </div>
+
+        <!-- Clickable Actions -->
+        <div class="decor-line"></div>
+        <p>Please confirm your presence by January 20!</p>
+        <a href="https://forms.gle/[RSVP_FORM_LINK]" target="_blank" class="clickable-btn"><i class="fas fa-pencil-alt icon"></i> RSVP Now</a>
+        <a href="tel:+63[PHONE_NUMBER]" class="clickable-btn"><i class="fas fa-phone icon"></i> Call Us</a>
+        <a href="sms:+63[PHONE_NUMBER]?body=Hi! We'll join [CHILD'S NAME]'s celebration. Number of guests: ___" class="clickable-btn"><i class="fas fa-sms icon"></i> Send SMS</a>
+
+        <div class="footer">With Lots of Love,<br>The [FAMILY NAME] Family ❤️</div>
+        <p class="small-note">Dress Code: Pastel Casual or Smart Cute<br>Gifts are lovely, but your smile is better!</p>
+    </div>
+</body>
+</html>
